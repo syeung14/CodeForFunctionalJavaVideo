@@ -92,8 +92,8 @@ public class Car {
     private static final Comparator<Car> fuelComparator = (o1, o2) -> o1.gasLevel - o2.gasLevel;
 
     @FunctionalInterface
-    interface CarCriterion {
-        boolean test();
+    interface CarCriterion<E> {
+        boolean test(E e);
         static void doStuff() {}
     }
 }
