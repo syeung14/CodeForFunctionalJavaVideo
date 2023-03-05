@@ -1,4 +1,4 @@
 package taxable2;
 
-public interface Individual extends Taxable {
+public class Individual implements Taxable {
 }

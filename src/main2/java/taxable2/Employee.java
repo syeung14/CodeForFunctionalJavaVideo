@@ -1,4 +1,4 @@
 package taxable2;
 
-public class Employee implements Individual{
+public class Employee extends Individual{
 }
