@@ -24,4 +24,13 @@ public class Pair<E> {
     public void setRight(E right) {
         this.right = right;
     }
+
+    @Override
+    public String toString() {
+        return "Pair{" +
+            "left=" + left +
+            ", right=" + right +
+            '}';
+    }
+
 }
