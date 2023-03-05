@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2940be19-4cb0-4e75-a1d3-a80110f819a9" name="Changes" comment="kkkkkkk">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functional/GuavaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myfunc/StreamVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForFunctionalVideo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeForFunctionalVideo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8lambdas/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8lambdas/LoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/GuavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/GuavaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functional/SumIntStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/SumIntStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,40 +60,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mssyeung/javasrc/CodeForFunctionalJavaVideo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20262954&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mssyeung/javasrc/CodeForFunctionalJavaVideo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "settings.editor.splitter.proportion": "0.20262954",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.LoggerTest">
-    <configuration name="LoggerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java8lambdas.LoggerTest" />
-      <module name="CodeForFunctionalVideo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.SumIntStream">
     <configuration name="LoggerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8lambdas.LoggerTest" />
       <module name="CodeForFunctionalVideo" />
@@ -102,7 +96,20 @@
       </method>
     </configuration>
     <configuration name="StreamVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.StreamVersion" />
+      <option name="MAIN_CLASS_NAME" value="myfunc.StreamVersion" />
+      <module name="CodeForFunctionalVideo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myfunc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumIntStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.SumIntStream" />
       <module name="CodeForFunctionalVideo" />
       <extension name="coverage">
         <pattern>
@@ -114,33 +121,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuavaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeForFunctionalVideo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8lambdas.*" />
+          <option name="PATTERN" value="functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java8lambdas" />
-      <option name="MAIN_CLASS_NAME" value="java8lambdas.LoggerTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="functional" />
+      <option name="MAIN_CLASS_NAME" value="functional.GuavaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggerTest.testMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuavaTest.testGuava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeForFunctionalVideo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8lambdas.*" />
+          <option name="PATTERN" value="functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java8lambdas" />
-      <option name="MAIN_CLASS_NAME" value="java8lambdas.LoggerTest" />
-      <option name="METHOD_NAME" value="testMap" />
+      <option name="PACKAGE_NAME" value="functional" />
+      <option name="MAIN_CLASS_NAME" value="functional.GuavaTest" />
+      <option name="METHOD_NAME" value="testGuava" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoggerTest" />
-        <item itemvalue="JUnit.LoggerTest.testMap" />
-        <item itemvalue="JUnit.LoggerTest.test" />
-        <item itemvalue="Application.LoggerTest (1)" />
+        <item itemvalue="Application.SumIntStream" />
         <item itemvalue="Application.StreamVersion" />
+        <item itemvalue="JUnit.GuavaTest" />
+        <item itemvalue="JUnit.GuavaTest.testGuava" />
+        <item itemvalue="Application.LoggerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +196,7 @@
       <workItem from="1675387262761" duration="87000" />
       <workItem from="1676172356971" duration="4721000" />
       <workItem from="1676205412647" duration="9882000" />
+      <workItem from="1677429891343" duration="5915000" />
     </task>
     <servers />
   </component>

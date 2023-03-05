@@ -1,11 +1,13 @@
 package functional;
 
 import com.google.common.collect.ImmutableSet;
+import org.junit.Test;
 
 public class GuavaTest {
 
 
-    void testGuava() {
+    @Test
+    public void testGuava() {
         ImmutableSet<String> COLOR_NAMES = ImmutableSet.of(
             "red",
             "orange",
@@ -13,5 +15,8 @@ public class GuavaTest {
             "green",
             "blue",
             "purple");
+
+        System.out.println(COLOR_NAMES);
     }
+
 }
