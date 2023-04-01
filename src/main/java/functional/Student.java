@@ -65,7 +65,15 @@ public class Student {
             new Student("Bonzo", 57));
 
     school.forEach(s -> System.out.println(s));
-    school.stream().collect(Collectors.groupingBy(s -> s.getLetterGrade()));
+    Map<String, List<Student>> table =  school.stream().collect(Collectors.groupingBy(s -> s.getLetterGrade()));
+    table.entrySet().stream().forEach( e-> System.out.println(e.getKey() + " , " + e.getValue()));
+
+
+    Comparator<Map.Entry<String, List<Student>>> comparator =
+        (e1, e2) -> e2.getKey().compareTo(e1.getKey());
+
+    comparator = Map.Entry.comparingByKey();
+
 
   }
 
