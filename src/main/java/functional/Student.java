@@ -45,39 +45,8 @@ public class Student {
   public String toString() {
     return name + ", " + score + "%";
   }
+
   public static void main(String[] args) {
-    List<Student> school = Arrays.asList(
-            new Student("Fred", 71),
-            new Student("Jim", 38),
-            new Student("Sheila", 97),
-            new Student("Weatherwax", 100),
-            new Student("Ogg", 56),
-            new Student("Rincewind", 28),
-            new Student("Ridcully", 65),
-            new Student("Magrat", 79),
-            new Student("Valentine", 93),
-            new Student("Gillian", 87),
-            new Student("Anne", 91),
-            new Student("Dr. Mahmoud", 88),
-            new Student("Ender", 91),
-            new Student("Hyrum", 72),
-            new Student("Locke", 91),
-            new Student("Bonzo", 57));
-
-    school.forEach(s -> System.out.println(s));
-    Map<String, List<Student>> table =  school.stream().collect(Collectors.groupingBy(s -> s.getLetterGrade()));
-    table.entrySet().stream().forEach( e-> System.out.println(e.getKey() + " , " + e.getValue()));
-
-
-    Comparator<Map.Entry<String, List<Student>>> comparator =
-        (e1, e2) -> e2.getKey().compareTo(e1.getKey());
-
-    comparator = Map.Entry.comparingByKey();
-
-
-  }
-
-  public static void main_(String[] args) {
     List<Student> school = Arrays.asList(
         new Student("Fred", 71),
         new Student("Jim", 38),
@@ -103,7 +72,7 @@ public class Student {
     Comparator<Map.Entry<String, Long>> order = Map.Entry.comparingByValue();
     order = order.reversed();
     grades.entrySet().stream()
-            .sorted(order)
-            .forEach(e -> System.out.println(e.getValue() + " students achieved grade " + e.getKey()));
+        .sorted(order)
+        .forEach(e -> System.out.println(e.getValue() + " students achieved grade " + e.getKey()));
   }
 }
