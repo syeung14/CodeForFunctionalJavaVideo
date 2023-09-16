@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a0153b9-8ccd-4f75-905c-f0fc15e33fac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeForFunctionalVideo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeForFunctionalVideo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/CarScratch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/CarScratch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/Func.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functional/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functional/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/CarScratch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/Criterian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main3/java/org/paumard/chaincomp/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -53,13 +49,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/mssyeung/javasrc/CodeForFunctionalJavaVideo",
+    "last_opened_file_path": "/Users/mssyeung/javasrc/CodeForFunctionalJavaVideo/src/main3/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "ruby.rails.projectView.checked": "true",
@@ -70,6 +66,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main3/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="func" />
@@ -82,39 +81,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarScratch">
-    <configuration name="Averager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.Averager" />
-      <module name="CodeForFunctionalVideo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PlayWithFactory">
     <configuration name="CarScratch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functional.CarScratch" />
       <module name="CodeForFunctionalVideo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="func.CollectAverage" />
-      <module name="CodeForFunctionalVideo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="func.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +108,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.Student" />
+    <configuration name="PlayWithFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayWithFactory" />
+      <module name="CodeForFunctionalVideo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayWithVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.paumard.visitor.PlayWithVisitor" />
       <module name="CodeForFunctionalVideo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.*" />
+          <option name="PATTERN" value="org.paumard.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="func.CarScratch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="func.CarScratch" />
+      <module name="CodeForFunctionalVideo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="func.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlayWithFactory" />
+        <item itemvalue="Application.PlayWithVisitor" />
+        <item itemvalue="Application.func.CarScratch" />
         <item itemvalue="Application.CarScratch" />
         <item itemvalue="Application.Concordance" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.CollectAverage" />
-        <item itemvalue="Application.Averager" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +163,9 @@
       <workItem from="1680387594415" duration="10125000" />
       <workItem from="1680456421526" duration="1087000" />
       <workItem from="1680457531819" duration="70000" />
-      <workItem from="1680457644666" duration="226000" />
+      <workItem from="1680457644666" duration="18739000" />
+      <workItem from="1680522020496" duration="644000" />
+      <workItem from="1694897520232" duration="321000" />
     </task>
     <servers />
   </component>
@@ -188,13 +183,29 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/functional/Car.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/func/CarScratch.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/func/Car.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
