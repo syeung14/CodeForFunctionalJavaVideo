@@ -14,3 +14,8 @@ http://www.gutenberg.org/files/158/158-0.txt
 Sense And Sensibility
 http://www.gutenberg.org/ebooks/161.txt.utf-8
 
+
+[Maven build]
+mvn --version # check the java version to ensure it is jdk11
+mvn clean compile
+# use IDE java version for maven build if necessary
